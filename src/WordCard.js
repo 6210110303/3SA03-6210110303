@@ -37,19 +37,19 @@ export default function WordCard(props) {
                 console.log('Start attempt: ' + (state.attempt + 1))
             }
             if (state.attempt == 2) {
-                console.log("Hint: This word start with P, end with T")
+                console.log("Hint 1: This word start with P, end with T")
             }
             if (state.attempt == 3) {
-                console.log("Hint: It is a JOB")
+                console.log("Hint 2: It is a JOB")
             }
             if (state.attempt == 4) {
-                console.log("Hint: He work in HOSPITAL")
+                console.log("Hint 3: He work in HOSPITAL")
             }
             if (state.attempt == 5) {
-                console.log("Hint: Its a type DOCTOR")
+                console.log("Hint 4: Its a type DOCTOR")
             }
             if (state.attempt == 6) {
-                console.log("Hint: He treat patients with MENTAL")
+                console.log("Hint 5: He treat patients with MENTAL")
             }
             
         }
