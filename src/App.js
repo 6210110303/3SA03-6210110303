@@ -6,6 +6,7 @@ const word = "Psychiatrist"
 function App() {
   return (
     <div >
+      <h1>Guess the word:</h1>      
       <WordCard value={word}/>
     </div>
   );

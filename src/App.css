@@ -1,9 +1,9 @@
 .card {
     display: inline-block;
     text-align: center;
-    width: 3em;
+    width: 2em;
     font-size: 2em;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 greenyellow;
     margin: 1em;
     user-select: none;
    }
@@ -11,4 +11,8 @@
    .activeCard{
        color: white;
        background: black;
+   }
+
+   .h1{
+       size: 50px;
    }
