@@ -30,27 +30,28 @@ export default function WordCard(props) {
                 console.log('Congrats!, You have done so well!')
                 setState({ ...state, guess: '', complete: true })
             }
-            else if (state.attempt == 2) {
-                console.log("this is your Hint: This word start with P, end with T")
-            }
-            else if (state.attempt == 3) {
-                console.log("this is your Hint: It is a JOB")
-            }
-            else if (state.attempt == 4) {
-                console.log("this is your Hint: Work in HOSPITAL")
-            }
-            else if (state.attempt == 5) {
-                console.log("this is your Hint: Its a type DOCTOR")
-            }
-            else if (state.attempt == 6) {
-                console.log("this is your Hint: He treat patients with MENTAL")
-            }
             else {
                 console.log('Finish attempt: ' + state.attempt)
                 setState({ ...state, guess: '', attempt: state.attempt + 1 })
                 console.log(' ')
                 console.log('Start attempt: ' + (state.attempt + 1))
             }
+            if (state.attempt == 2) {
+                console.log("Hint: This word start with P, end with T")
+            }
+            if (state.attempt == 3) {
+                console.log("Hint: It is a JOB")
+            }
+            if (state.attempt == 4) {
+                console.log("Hint: He work in HOSPITAL")
+            }
+            if (state.attempt == 5) {
+                console.log("Hint: Its a type DOCTOR")
+            }
+            if (state.attempt == 6) {
+                console.log("Hint: He treat patients with MENTAL")
+            }
+            
         }
     }
 
